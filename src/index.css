@@ -10,3 +10,21 @@
 body {
   font-family: "IBM Plex Sans", sans-serif;
 }
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.navbar {
+  padding: 1rem;
+  border-bottom: 1px solid grey;
+}
+
+.shopping-cart {
+  height: 2.2rem;
+  width: 2.2rem;
+  position: relative;
+  display: flex;
+}
