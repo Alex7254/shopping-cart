@@ -17,7 +17,7 @@ export function CartItem({ id, quantity }: CartItemProps) {
   if (item == null) return null;
 
   return (
-    <div className="cart-item">
+    <li className="cart-item">
       <div className="cart-item__img">
         <img src={item.imgUrl} alt="" />
       </div>
@@ -34,6 +34,6 @@ export function CartItem({ id, quantity }: CartItemProps) {
         </div>
         <button onClick={() => removeFromCart(item.id)}>&times;</button>
       </div>
-    </div>
+    </li>
   );
 }
